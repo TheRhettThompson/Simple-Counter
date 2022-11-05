@@ -1,18 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Clock from './Clock.jsx'
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+ 
 
 //create your first component
 const SecondsCounter = (props) => {
 	return (
 		<div className="container">
+			<div className="clock" />
 			<div className="counter">
-				<p>1</p>
-				<p>1</p>
-				<p>1</p>
-				<p>1</p>
+				<p>{props.numSix}</p>
+				<p>{props.numFiv}</p>
+				<p>{props.numFou}</p>
+				<p>{props.numThr}</p>
 				<p>{props.numTwo}</p>
 				<p>{props.numOne}</p>
 			</div>
@@ -26,6 +28,10 @@ const SecondsCounter = (props) => {
 SecondsCounter.propTypes = {
 	numOne: PropTypes.number,
 	numTwo: PropTypes.number,
+	numThr: PropTypes.number,
+	numFou: PropTypes.number,
+	numFiv: PropTypes.number,
+	numSix: PropTypes.number
 }
 
 export default SecondsCounter;
