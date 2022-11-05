@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Clock from './Clock.jsx'
+import Clock from "./Clock.jsx";
 
 //include images into your bundle
  
@@ -9,7 +9,7 @@ import Clock from './Clock.jsx'
 const SecondsCounter = (props) => {
 	return (
 		<div className="container">
-			<div className="clock" />
+			<div className="clock"/>
 			<div className="counter">
 				<p>{props.numSix}</p>
 				<p>{props.numFiv}</p>
@@ -18,8 +18,6 @@ const SecondsCounter = (props) => {
 				<p>{props.numTwo}</p>
 				<p>{props.numOne}</p>
 			</div>
-				 
-			
 			 
 		</div>
 	);
