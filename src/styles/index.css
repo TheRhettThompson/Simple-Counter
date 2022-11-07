@@ -32,6 +32,19 @@
     border-radius: 5px;
 
 }
+
+.far {
+    border: 1px gray solid;
+    margin: 10px;
+    background-color: darkgray;
+    width: 70px;
+    font-size: 72px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 5px;  
+
+}
 /* 
 
     You can write your own styles here...

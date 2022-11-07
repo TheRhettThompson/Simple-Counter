@@ -9,7 +9,7 @@ import Clock from "./Clock.jsx";
 const SecondsCounter = (props) => {
 	return (
 		<div className="container">
-			<div className="clock"/>
+			<div className="far fa-clock"/>
 			<div className="counter">
 				<p>{props.numSix}</p>
 				<p>{props.numFiv}</p>

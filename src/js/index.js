@@ -24,4 +24,4 @@ setInterval(() => {
     //render your react application
     ReactDOM.render(<SecondsCounter numOne={numberOne} numTwo={numberTwo} numThr={numberThree} numFou={numberFour} numFiv={numberFive} numSix={numberSix} />, document.querySelector("#app"));
 
-}, 1000);
+}, 5);
