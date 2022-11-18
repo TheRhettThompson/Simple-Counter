@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import Clock from "./Clock.jsx";
 
 //include images into your bundle
- 
 
 //create your first component
 const SecondsCounter = (props) => {
@@ -18,7 +17,6 @@ const SecondsCounter = (props) => {
 				<p>{props.numTwo}</p>
 				<p>{props.numOne}</p>
 			</div>
-			 
 		</div>
 	);
 };
